@@ -9,6 +9,7 @@ class Shoe
     if brand.uniq
     BRANDS << brand
   end
+  end
 
   def cobble
     self.condition = "new"
